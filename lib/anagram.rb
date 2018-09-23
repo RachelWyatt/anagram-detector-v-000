@@ -5,6 +5,8 @@ class Anagram
   end
 
   def match(word_list)
+    word_letters = word.split("").sort
+    word_letters
   end
 
 end
