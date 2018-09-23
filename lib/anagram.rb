@@ -9,7 +9,7 @@ class Anagram
     word_letters = @word.split(//).sort
     word_list_letters = word_list.each do {|word| word.split(//).sort}
     word_list_letters
-      
+
   end
 
 end
